@@ -25,6 +25,21 @@
        <h1> Welcome to Matt's blog</h1>
 
        <h2> Click to Navigate below </h2>
+      <p> <a href= "about.html"> Find out about me </a> </p>
+      <p> <a href= "contact.html"> Contact info </a> <p>
+
+        <h3> My Blog Posts </h3>
+
+        <ul>
+            <script> 
+            for (var i = 0; i <= posts.count; i++) {
+               <li>
+                <a href="{{ /posts }}"> i.title </a>
+                </li>
+            };
+</ul>
+       <p> <a href="posts/22jun2014"> June 22, 2014 </a> </p>
+        <p> <a href="posts/23jun2014"> June 23, 2014</a> </p>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
